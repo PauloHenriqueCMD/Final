@@ -12,8 +12,9 @@ h2 {
    text-align:center;
    padding: 30px 20px;
    border-radius: 8px;
-   box-shadow: 0 4px 5px;
+   box-shadow: 0px 4px 5px;
    justify-content: center;
+
 }
   
  body{
@@ -26,6 +27,7 @@ h2 {
    justify-content:center;  
    display:inline; 
    display: block;
+   
 }
   
  .secao {
@@ -33,11 +35,26 @@ h2 {
    border-left: 5px solid gray; 
    border-right: 5px solid gray;
    border-radius: 8px;
+   margin: 8px;
+   box-shadow: inset  0px 0px 2px;
 }
   
  section {
    display: block;
-   
- }
+}
 
-   
+footer {
+   align-items: center;
+   text-align: center;
+
+}   
+
+img {
+   border-radius: 8px;
+}
+
+.grid-container {
+   display: grid;
+   grid-template-columns: 500px 10px 10px;
+   gap: 10px;
+}

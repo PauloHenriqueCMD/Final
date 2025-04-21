@@ -14,12 +14,13 @@ h2 {
    border-radius: 8px;
    box-shadow: 0px 4px 5px;
    justify-content: center;
+   align-items: center;
 }
   
  body{
    
    font-family: 'segoe UI' , tahoma, Geneva, Verdana, sans-serif;
-   background-color:white;
+   background-color:rgb(255, 255, 255);
    color:black;
    line-height: 1.0;
    padding: 20px;
@@ -28,16 +29,7 @@ h2 {
    display: block;
    
 }
-  
- .secao {
-   padding: 20px;
-   border-left: 5px solid gray; 
-   border-right: 5px solid gray;
-   border-radius: 8px;
-   margin: 8px;
-   box-shadow: inset  0px 0px 2px;
-}
-  
+    
  section {
    display: block;
    
@@ -59,6 +51,25 @@ img {
    gap: 10px;
 }
 
+.cabecalho {
+   list-style: none;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   font-family: sans-serif;
+   gap: 10px;
+   flex-wrap: wrap;
+}
+
+.secao {
+   padding: 20px;
+   border-left: 5px solid gray; 
+   border-right: 5px solid gray;
+   border-radius: 8px;
+   margin: 8px;
+   box-shadow: inset  0px 0px 2px;
+}
+
 h1 {
    font-family: sans-serif;
    font-size: 1.6;
@@ -67,13 +78,4 @@ h1 {
    justify-content: center; 
    margin: 0;
    padding: 0;
-}
-
-.cabecalho {
-   list-style: none;
-   align-items: center;
-   display: flex;
-   justify-content: center;
-   font-family: sans-serif;
-   gap: 10px;
 }

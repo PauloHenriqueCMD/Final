@@ -30,7 +30,7 @@ h2 {
    
 }
     
- section {
+ .secao {
    display: block;
    
 }
@@ -73,7 +73,7 @@ button {
    justify-content: center;
    font-family: sans-serif;
    gap: 10px;
-   flex-wrap: wrap;
+   flex-wrap: wrap;  
 }
 
 .secao {
